@@ -1,0 +1,9 @@
+
+{
+	"name": "GenAlpha Schematics Demo",
+	"dockerFile": "Dockerfile",
+	"extensions": [
+    "gen-alpha-xtor.schematics-vscode"
+	]
+}
+
