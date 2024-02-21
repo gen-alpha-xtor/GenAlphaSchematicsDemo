@@ -1,6 +1,6 @@
 {
 	"name": "GenAlpha Schematics Demo",
-	"image": "ghcr.io/gen-alpha-xtor/genalphaschematicsdemo",
+	"dockerFile": "Dockerfile",
 	"postCreateCommand": "bash .devcontainer/postcreate.sh",
 	"customizations": {
 		"vscode": {
