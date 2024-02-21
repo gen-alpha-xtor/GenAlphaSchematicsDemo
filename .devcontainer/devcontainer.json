@@ -1,6 +1,6 @@
 {
 	"name": "GenAlpha Schematics Demo",
-	"image": "ghcr.io/gen-alpha-xtor/genalphaschematicsdemo",
+	"image": "ghcr.io/gen-alpha-xtor/genalphaschematicsdemo:sha256-9ff8de32266ea513626d4c49d29c6ce5c574262d75ee77b5e0567d2595a582a0.sig", 
 	"postCreateCommand": "bash .devcontainer/postcreate.sh",
 	"customizations": {
 		"vscode": {
