@@ -1,0 +1,3 @@
+[submodule "asap7_pdk_r1p7"]
+	path = asap7_pdk_r1p7
+	url = https://github.com/The-OpenROAD-Project/asap7_pdk_r1p7.git

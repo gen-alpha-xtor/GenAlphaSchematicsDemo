@@ -1,9 +1,18 @@
-
 {
 	"name": "GenAlpha Schematics Demo",
 	"dockerFile": "Dockerfile",
-	"extensions": [
-    "gen-alpha-xtor.schematics-vscode"
-	]
+	"postCreateCommand": "bash .devcontainer/postcreate.sh",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"gen-alpha-xtor.schematics-vscode"
+			]
+		},
+		"codespaces": {
+			"openFiles": [
+				"asap7_pdk_r1p7/asap7ssc7p5t_05/DFFHQNx1_ASAP7_75t_R/schematic/sch.oa",
+				"readme.md"
+			]
+		}
+	}
 }
-
