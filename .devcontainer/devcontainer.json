@@ -1,6 +1,6 @@
 {
 	"name": "GenAlpha Schematics Demo",
-	"dockerFile": "Dockerfile",
+	"image": "ghcr.io/gen-alpha-xtor/centos8:main",
 	"postCreateCommand": "bash .devcontainer/postcreate.sh",
 	"customizations": {
 		"vscode": {
@@ -10,8 +10,8 @@
 		},
 		"codespaces": {
 			"openFiles": [
-				"asap7_pdk_r1p7/asap7ssc7p5t_05/DFFHQNx1_ASAP7_75t_R/schematic/sch.oa",
-				"start.md"
+				"start.md",
+				"asap7_pdk_r1p7/asap7ssc7p5t_05/DFFHQNx1_ASAP7_75t_R/schematic/sch.oa"
 			]
 		}
 	}
