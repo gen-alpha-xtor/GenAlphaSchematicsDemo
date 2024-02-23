@@ -65,5 +65,5 @@ Alternately:
 
 GenAlpha Schematics runs as an extension to the popular open-source [VsCode IDE](https://code.visualstudio.com). It is designed to run on your data, on your own company or institutional servers, running any supported platform (RedHat/ CentOS Linux 7 or 8). It runs like other IDE extensions, such as those for language highlighting or debugging - as *you*. Your user account, your directories, with only access to what you yourself can see. GenAlpha does not require any priviledged access (e.g. `root`, `sudo`) to install or set up. 
 
-GenAlpha is most easily installed from the [VsCode extension marketplace](https://marketplace.visualstudio.com/items?itemName=gen-alpha-xtor.schematics-vscode). It pairs particularly well with VsCode's built-in [remote development via SSH](https://code.visualstudio.com/docs/remote/ssh) extension, which enables editing remote (server) data on your preferred local OS and UI, without ever transfering any files between the two. 
+GenAlpha is most easily installed from the [VsCode extension marketplace](vscode:extension/gen-alpha-xtor.schematics-vscode). It pairs particularly well with VsCode's built-in [remote development via SSH](https://code.visualstudio.com/docs/remote/ssh) extension, which enables editing remote (server) data on your preferred local OS and UI, without ever transfering any files between the two. 
 
