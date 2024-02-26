@@ -3,13 +3,29 @@
 
 [![codespace](https://github.com/codespaces/badge.svg)](https://codespaces.new/gen-alpha-xtor/GenAlphaSchematicsDemo?quickstart=1)
 
-[![vscode](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)](vscode:extension/gen-alpha-xtor.schematics-vscode)
+<picture style="max-width:600px;width:100%">
+  <source 
+    media="(prefers-color-scheme: dark)" 
+    srcset="https://raw.githubusercontent.com/gen-alpha-xtor/GenAlphaXtorSchematics/main/files/genalpha-demo-chrome-dark.jpg"
+  >
+  <source 
+    media="(prefers-color-scheme: light)" 
+    srcset="https://raw.githubusercontent.com/gen-alpha-xtor/GenAlphaXtorSchematics/main/files/genalpha-demo-chrome-light.jpg"
+  >
+  <a href=https://codespaces.new/gen-alpha-xtor/GenAlphaSchematicsDemo?quickstart=1>
+  <img 
+    alt="demo" 
+    width="1200"
+    src="https://raw.githubusercontent.com/gen-alpha-xtor/GenAlphaXtorSchematics/main/files/genalpha-demo-chrome-light.jpg"
+  >
+  </a>
+</picture>
 
 ---
 
-[GenAlpha Schematics](https://marketplace.visualstudio.com/items?itemName=gen-alpha-xtor.schematics-vscode) enables editing real, production-quality schematics, live in [VsCode](https://code.visualstudio.com).
+[GenAlpha Schematics](https://marketplace.visualstudio.com/items?itemName=gen-alpha-xtor.schematics-vscode) enables editing real, production-quality schematics, live in the popular [VsCode](https://code.visualstudio.com) programming environment.
 
-GenAlpha operates on the same [OpenAccess](https://si2.org/openaccess)  databases and schematics supported by leading silicon foundry PDKs.
+GenAlpha operates on the same [OpenAccess](https://si2.org/openaccess) databases and schematics supported by leading silicon foundry PDKs.
 
 
 ## This Demo 
@@ -41,7 +57,7 @@ The schematics in this demo repository come courtesy of the open-source [ASAP7 p
 Clicking on any of those links will open an interactive editor pane.  
 Alternately:
 
-- Navigate to their `sch.oa` or `symbo.oa` files in the VsCode file explorer panel, generally at left, or
+- Navigate to their `sch.oa` or `symbol.oa` files in the VsCode file explorer panel, generally at left, or
 - Open them via the `code` command-line utility, e.g. `code asap7_pdk_r1p7/asap7ssc7p5t_05/DFFHQNx1_ASAP7_75t_R/schematic/sch.oa`
 
 
