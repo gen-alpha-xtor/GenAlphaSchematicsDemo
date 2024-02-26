@@ -2,6 +2,7 @@
 	"name": "GenAlpha Schematics Demo",
 	"image": "ghcr.io/gen-alpha-xtor/centos8:main",
 	"postCreateCommand": "bash .devcontainer/postcreate.sh",
+	"postStartCommand": "code start.md",
 	"customizations": {
 		"vscode": {
 			"extensions": [
@@ -13,11 +14,6 @@
 					"*.md": "vscode.markdown.preview.editor"
 				}
 			}
-		},
-		"codespaces": {
-			"openFiles": [
-				"start.md"
-			]
 		}
 	}
 }
