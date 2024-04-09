@@ -30,7 +30,7 @@ GenAlpha operates on the same [OpenAccess](https://si2.org/openaccess) databases
 
 ## This Demo 
 
-GenAlpha is designed to run on-premises, on your corporate or institutional servers. [Instructions below](#getting-genalpha). This demo repository can be cloned and run locally, or can be run in GitHub's cloud-native [codespaces](https://github.com/features/codespaces). 
+GenAlpha is designed to run on-premises, on your corporate or institutional servers. [Instructions below](#getting-genalpha). This demo repository can be [cloned and run locally](#running-this-demo-locally), or can be run in GitHub's cloud-native [codespaces](https://github.com/features/codespaces). 
 
 
 ## Demo Schematics
@@ -85,7 +85,20 @@ Alternately:
 
 ## Getting GenAlpha
 
-GenAlpha Schematics runs as an extension to the popular open-source [VsCode IDE](https://code.visualstudio.com). It is designed to run on your data, on your own company or institutional servers, running any supported platform (RedHat/ CentOS Linux 7 or 8). It runs like other IDE extensions, such as those for language highlighting or debugging - as *you*. Your user account, your directories, with only access to what you yourself can see. GenAlpha does not require any priviledged access (e.g. `root`, `sudo`) to install or set up. 
+GenAlpha Schematics runs as an extension to the popular open-source [VsCode IDE](https://code.visualstudio.com). It is designed to run on your data, on your own company or institutional servers, running any supported platform (RedHat/ CentOS Linux 7 or 8). It runs like other IDE extensions, such as those for language highlighting or debugging - as *you*. Your user account, your directories, with only access to what you yourself can see. GenAlpha does not require any privileged access (e.g. `root`, `sudo`) to install or set up. 
 
 GenAlpha is most easily installed from the [VsCode extension marketplace](vscode:extension/gen-alpha-xtor.schematics-vscode). It pairs particularly well with VsCode's built-in [remote development via SSH](https://code.visualstudio.com/docs/remote/ssh) extension, which enables editing remote (server) data on your preferred local OS and UI, without ever transfering any files between the two. 
+
+
+## Running This Demo Locally
+
+This demo repository auto-invokes [a short post-creation script](https://github.com/gen-alpha-xtor/GenAlphaSchematicsDemo/blob/main/.devcontainer/postcreate.sh) when set up in a GitHub Codespace. 
+If using it anywhere else, you'll probably want to start by running:
+
+```
+bash .devcontainer/postcreate.sh
+```
+
+Or check out that script's contents and run them manually. 
+(We promise, [they're quite short](https://github.com/gen-alpha-xtor/GenAlphaSchematicsDemo/blob/main/.devcontainer/postcreate.sh).)
 
