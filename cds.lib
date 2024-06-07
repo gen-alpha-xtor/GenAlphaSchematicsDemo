@@ -1,1 +1,2 @@
 INCLUDE ./asap7_pdk_r1p7/cdslib/setup/cds.lib
+INCLUDE ./CppSimDb/cds.lib
